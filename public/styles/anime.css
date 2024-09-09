@@ -1,0 +1,48 @@
+/*===============*/
+/* ANIME SECTION */
+/*===============*/
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    overflow: -webkit-pannable;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+p, a, li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.animeinfo p {
+    font-size: small;
+}
+
+p strong {
+    font-weight: 600;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 1000px; */
+}
+
+p .informasi {
+    text-align: center;
+}
+
+.title-border {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
